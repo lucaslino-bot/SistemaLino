@@ -56,4 +56,4 @@ public class VendasProdutosLgl {
     public void setLgl_subtotal(double lgl_subtotal) {
         this.lgl_subtotal = lgl_subtotal;
     }
-}
+}   
