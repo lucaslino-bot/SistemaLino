@@ -28,11 +28,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTxtMhcUsuario" max="32767" attributes="0"/>
+                      <Component id="jTxtLglUsuario" max="32767" attributes="0"/>
                       <Component id="jLabel2" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                      <Component id="jPwfMhcSenha" alignment="0" pref="266" max="32767" attributes="0"/>
+                      <Component id="jPwfLglSenha" alignment="0" pref="266" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="jBtnMhcLogin" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnLglLogin" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="128" max="32767" attributes="0"/>
           </Group>
@@ -44,13 +44,13 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" pref="16" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jTxtMhcUsuario" min="-2" max="-2" attributes="0"/>
+              <Component id="jTxtLglUsuario" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jPwfMhcSenha" min="-2" max="-2" attributes="0"/>
+              <Component id="jPwfLglSenha" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-              <Component id="jBtnMhcLogin" min="-2" max="-2" attributes="0"/>
+              <Component id="jBtnLglLogin" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="99" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -62,16 +62,19 @@
         <Property name="text" type="java.lang.String" value="Usu&#xe1;rio:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtMhcUsuario">
+    <Component class="javax.swing.JTextField" name="jTxtLglUsuario">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtLglUsuarioActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Senha:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JPasswordField" name="jPwfMhcSenha">
+    <Component class="javax.swing.JPasswordField" name="jPwfLglSenha">
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnMhcLogin">
+    <Component class="javax.swing.JButton" name="jBtnLglLogin">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/ok.png"/>
@@ -79,7 +82,7 @@
         <Property name="text" type="java.lang.String" value="Entrar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnMhcLoginActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnLglLoginActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

@@ -35,7 +35,7 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
         jMnuLglUsuarios = new javax.swing.JMenuItem();
         jMnuLglClientes = new javax.swing.JMenuItem();
         jMnuLglFornecedor = new javax.swing.JMenuItem();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        jMnuLglProdutos = new javax.swing.JMenuItem();
         jMnuLglVeiculos = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuLglSair = new javax.swing.JMenuItem();
@@ -64,15 +64,16 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
         jMnuLglFornecedor.setText("Fornecedor");
         jMnuLglCadastro.add(jMnuLglFornecedor);
 
-        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produto.png"))); // NOI18N
-        jMenuItem1.setText("Produto");
-        jMenuItem1.addActionListener(this::jMenuItem1ActionPerformed);
-        jMnuLglCadastro.add(jMenuItem1);
+        jMnuLglProdutos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMnuLglProdutos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produto.png"))); // NOI18N
+        jMnuLglProdutos.setText("Produtos");
+        jMnuLglProdutos.addActionListener(this::jMnuLglProdutosActionPerformed);
+        jMnuLglCadastro.add(jMnuLglProdutos);
 
         jMnuLglVeiculos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuLglVeiculos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/veiculos.png"))); // NOI18N
         jMnuLglVeiculos.setText("Veiculos");
+        jMnuLglVeiculos.addActionListener(this::jMnuLglVeiculosActionPerformed);
         jMnuLglCadastro.add(jMnuLglVeiculos);
         jMnuLglCadastro.add(jSeparator1);
 
@@ -116,11 +117,15 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
 
     private void jMnuLglUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglUsuariosActionPerformed
         // TODO add your handling code here:
+         JDlgLglUsuarios dialog = new JDlgLglUsuarios(this, true);
+dialog.setVisible(true);
     }//GEN-LAST:event_jMnuLglUsuariosActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void jMnuLglProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglProdutosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+        JDlgLglProdutos dialog = new JDlgLglProdutos(this, true);
+dialog.setVisible(true);
+    }//GEN-LAST:event_jMnuLglProdutosActionPerformed
 
     private void jMnuLglSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglSairActionPerformed
         // TODO add your handling code here:
@@ -130,6 +135,10 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
     private void jMnuLglComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglComprasActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMnuLglComprasActionPerformed
+
+    private void jMnuLglVeiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglVeiculosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMnuLglVeiculosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -158,12 +167,12 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenu jMnuLglCadastro;
     private javax.swing.JMenuItem jMnuLglClientes;
     private javax.swing.JMenuItem jMnuLglCompras;
     private javax.swing.JMenuItem jMnuLglFornecedor;
     private javax.swing.JMenu jMnuLglMovimento;
+    private javax.swing.JMenuItem jMnuLglProdutos;
     private javax.swing.JMenuItem jMnuLglSair;
     private javax.swing.JMenuItem jMnuLglUsuarios;
     private javax.swing.JMenuItem jMnuLglVeiculos;

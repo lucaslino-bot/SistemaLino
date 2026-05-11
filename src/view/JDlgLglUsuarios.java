@@ -18,7 +18,7 @@ public class JDlgLglUsuarios extends javax.swing.JDialog {
     public JDlgLglUsuarios(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("TicoSports - Usuários");
+        setTitle("Mecânica Lino - Usuários");
         setLocationRelativeTo(null);
           jTxtLblAcessos.setEnabled(false);
         jTxtLblApelido.setEnabled(false);

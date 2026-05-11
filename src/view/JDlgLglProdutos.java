@@ -20,7 +20,7 @@ public class JDlgLglProdutos extends javax.swing.JDialog {
     public JDlgLglProdutos(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("TicoSports - Produtos");
+        setTitle("Mecânica Lino - Produtos");
         setLocationRelativeTo(null);
         jTxtLglCategoria.setEnabled(false);
         jTxtLglDescricao.setEnabled(false);

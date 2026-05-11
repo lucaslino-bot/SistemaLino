@@ -9,7 +9,7 @@ public class JDlgLglLogin extends javax.swing.JDialog {
     public JDlgLglLogin(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-         setTitle("TicoSports - Login");
+         setTitle("Mecânica Lino - Login");
         setLocationRelativeTo(null);
     }
 
@@ -23,20 +23,22 @@ public class JDlgLglLogin extends javax.swing.JDialog {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jTxtMhcUsuario = new javax.swing.JTextField();
+        jTxtLglUsuario = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        jPwfMhcSenha = new javax.swing.JPasswordField();
-        jBtnMhcLogin = new javax.swing.JButton();
+        jPwfLglSenha = new javax.swing.JPasswordField();
+        jBtnLglLogin = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setText("Usuário:");
 
+        jTxtLglUsuario.addActionListener(this::jTxtLglUsuarioActionPerformed);
+
         jLabel2.setText("Senha:");
 
-        jBtnMhcLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ok.png"))); // NOI18N
-        jBtnMhcLogin.setText("Entrar");
-        jBtnMhcLogin.addActionListener(this::jBtnMhcLoginActionPerformed);
+        jBtnLglLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ok.png"))); // NOI18N
+        jBtnLglLogin.setText("Entrar");
+        jBtnLglLogin.addActionListener(this::jBtnLglLoginActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -47,10 +49,10 @@ public class JDlgLglLogin extends javax.swing.JDialog {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jLabel1)
-                        .addComponent(jTxtMhcUsuario)
+                        .addComponent(jTxtLglUsuario)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jPwfMhcSenha, javax.swing.GroupLayout.DEFAULT_SIZE, 266, Short.MAX_VALUE))
-                    .addComponent(jBtnMhcLogin))
+                        .addComponent(jPwfLglSenha, javax.swing.GroupLayout.DEFAULT_SIZE, 266, Short.MAX_VALUE))
+                    .addComponent(jBtnLglLogin))
                 .addContainerGap(128, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -59,27 +61,27 @@ public class JDlgLglLogin extends javax.swing.JDialog {
                 .addContainerGap()
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTxtMhcUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTxtLglUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPwfMhcSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPwfLglSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50)
-                .addComponent(jBtnMhcLogin)
+                .addComponent(jBtnLglLogin)
                 .addContainerGap(99, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jBtnMhcLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnMhcLoginActionPerformed
+    private void jBtnLglLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnLglLoginActionPerformed
         // TODO add your handling code here:
-        String usuario = jTxtMhcUsuario.getText();
-String senha = new String(jPwfMhcSenha.getPassword());
+        String usuario = jTxtLglUsuario.getText();
+String senha = new String(jPwfLglSenha.getPassword());
 
-if (usuario.equals("Calixtro") && senha.equals("Tico123")) {
+if (usuario.equals("Lino") && senha.equals("Lucas2026")) {
 
-    JFrmMhcPrincipal tela = new JFrmMhcPrincipal();
+    JFrmLglPrincipal tela = new JFrmLglPrincipal();
     tela.setVisible(true);
 
     dispose();
@@ -91,12 +93,16 @@ if (usuario.equals("Calixtro") && senha.equals("Tico123")) {
         "Usuário ou senha inválidos!"
     );
 
-    jTxtMhcUsuario.setText("");
-    jPwfMhcSenha.setText("");
+    jTxtLglUsuario.setText("");
+    jPwfLglSenha.setText("");
 
-    jTxtMhcUsuario.requestFocus();
+    jTxtLglUsuario.requestFocus();
 }
-    }//GEN-LAST:event_jBtnMhcLoginActionPerformed
+    }//GEN-LAST:event_jBtnLglLoginActionPerformed
+
+    private void jTxtLglUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtLglUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTxtLglUsuarioActionPerformed
 
     /**
      * @param args the command line arguments
@@ -135,10 +141,10 @@ if (usuario.equals("Calixtro") && senha.equals("Tico123")) {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBtnMhcLogin;
+    private javax.swing.JButton jBtnLglLogin;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JPasswordField jPwfMhcSenha;
-    private javax.swing.JTextField jTxtMhcUsuario;
+    private javax.swing.JPasswordField jPwfLglSenha;
+    private javax.swing.JTextField jTxtLglUsuario;
     // End of variables declaration//GEN-END:variables
 }
