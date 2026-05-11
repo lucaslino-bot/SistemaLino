@@ -57,6 +57,7 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
         jMnuLglClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuLglClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
         jMnuLglClientes.setText("Clientes");
+        jMnuLglClientes.addActionListener(this::jMnuLglClientesActionPerformed);
         jMnuLglCadastro.add(jMnuLglClientes);
 
         jMnuLglFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
@@ -91,7 +92,6 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
 
         jMnuLglCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMnuLglCompras.setText("Compras");
-        jMnuLglCompras.addActionListener(this::jMnuLglComprasActionPerformed);
         jMnuLglMovimento.add(jMnuLglCompras);
 
         jMnuLglVendas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
@@ -133,12 +133,10 @@ dialog.setVisible(true);
         System.exit(0);
     }//GEN-LAST:event_jMnuLglSairActionPerformed
 
-    private void jMnuLglComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglComprasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMnuLglComprasActionPerformed
-
     private void jMnuLglVeiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglVeiculosActionPerformed
         // TODO add your handling code here:
+         JDlgLglVeiculos dialog = new JDlgLglVeiculos(this, true);
+dialog.setVisible(true);
     }//GEN-LAST:event_jMnuLglVeiculosActionPerformed
 
     private void jMnuLglFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglFornecedorActionPerformed
@@ -146,6 +144,12 @@ dialog.setVisible(true);
          JDlgLglFornecedor dialog = new JDlgLglFornecedor(this, true);
 dialog.setVisible(true);
     }//GEN-LAST:event_jMnuLglFornecedorActionPerformed
+
+    private void jMnuLglClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglClientesActionPerformed
+        // TODO add your handling code here:
+         JDlgLglClientes dialog = new JDlgLglClientes(this, true);
+dialog.setVisible(true);
+    }//GEN-LAST:event_jMnuLglClientesActionPerformed
 
     /**
      * @param args the command line arguments
