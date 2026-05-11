@@ -62,6 +62,7 @@ public class JFrmLglPrincipal extends javax.swing.JFrame {
         jMnuLglFornecedor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuLglFornecedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fornecedor2.png"))); // NOI18N
         jMnuLglFornecedor.setText("Fornecedor");
+        jMnuLglFornecedor.addActionListener(this::jMnuLglFornecedorActionPerformed);
         jMnuLglCadastro.add(jMnuLglFornecedor);
 
         jMnuLglProdutos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
@@ -139,6 +140,12 @@ dialog.setVisible(true);
     private void jMnuLglVeiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglVeiculosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMnuLglVeiculosActionPerformed
+
+    private void jMnuLglFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMnuLglFornecedorActionPerformed
+        // TODO add your handling code here:
+         JDlgLglFornecedor dialog = new JDlgLglFornecedor(this, true);
+dialog.setVisible(true);
+    }//GEN-LAST:event_jMnuLglFornecedorActionPerformed
 
     /**
      * @param args the command line arguments
