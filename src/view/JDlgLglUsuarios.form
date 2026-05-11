@@ -27,7 +27,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTxtNome" min="-2" pref="259" max="-2" attributes="0"/>
+                          <Component id="jTxtLblNome" min="-2" pref="259" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLblNome" min="-2" pref="37" max="-2" attributes="0"/>
@@ -36,7 +36,7 @@
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTxtApelido" min="-2" pref="322" max="-2" attributes="0"/>
+                          <Component id="jTxtLblApelido" min="-2" pref="322" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
@@ -45,42 +45,42 @@
                               <Component id="jLblSenha" min="-2" pref="37" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jPwfSenha" max="32767" attributes="0"/>
+                          <Component id="jPwfLblSenha" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLblNivel" min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="jCboNivel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCboLblNivel" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLblCpf" min="-2" max="-2" attributes="0"/>
-                          <Component id="jFmtCpf" min="-2" pref="221" max="-2" attributes="0"/>
+                          <Component id="jFmtLblCpf" min="-2" pref="221" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLblDataNasc" min="-2" pref="112" max="-2" attributes="0"/>
-                          <Component id="jTxtDataNasc" max="32767" attributes="0"/>
+                          <Component id="jTxtLblDataNasc" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jTxtDataCadastro" pref="194" max="32767" attributes="0"/>
+                              <Component id="jTxtLblDataCadastro" pref="194" max="32767" attributes="0"/>
                               <Component id="jLblEmail" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                              <Component id="jTxtEmail" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jTxtLblEmail" alignment="1" max="32767" attributes="0"/>
                           </Group>
                           <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTxtTelefone" max="32767" attributes="0"/>
+                          <Component id="jTxtLblTelefone" max="32767" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLblTelefone" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel2" min="-2" pref="102" max="-2" attributes="0"/>
-                                  <Component id="jTxtHoraCadastro" alignment="0" min="-2" pref="282" max="-2" attributes="0"/>
+                                  <Component id="jTxtLblHoraCadastro" alignment="0" min="-2" pref="282" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
@@ -88,8 +88,8 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel3" min="-2" pref="37" max="-2" attributes="0"/>
-                          <Component id="jChbAtivo" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCboCargo" min="-2" max="-2" attributes="0"/>
+                          <Component id="jChbLblAtivo" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCboLblCargo" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -114,9 +114,9 @@
                               <Component id="jLabel6" min="-2" pref="37" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jTxtAcessos" min="-2" pref="75" max="-2" attributes="0"/>
+                              <Component id="jTxtLblAcessos" min="-2" pref="75" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jCboGenero" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCboLblGenero" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jTxtId" min="-2" pref="71" max="-2" attributes="0"/>
                           </Group>
@@ -138,8 +138,8 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTxtNome" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtApelido" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblNome" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblApelido" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -148,8 +148,8 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jFmtCpf" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtDataNasc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFmtLblCpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblDataNasc" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -158,8 +158,8 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jCboNivel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jPwfSenha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCboLblNivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPwfLblSenha" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -168,9 +168,9 @@
               </Group>
               <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jChbAtivo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jChbLblAtivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblTelefone" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -180,9 +180,9 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtDataCadastro" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtHoraCadastro" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCboCargo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblDataCadastro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtLblHoraCadastro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCboLblCargo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
@@ -194,8 +194,8 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTxtAcessos" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jCboGenero" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtLblAcessos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCboLblGenero" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jTxtId" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -223,16 +223,16 @@
         <Property name="text" type="java.lang.String" value="Nome"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtNome">
+    <Component class="javax.swing.JTextField" name="jTxtLblNome">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblApelido">
       <Properties>
         <Property name="text" type="java.lang.String" value="Apelido"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtApelido">
+    <Component class="javax.swing.JTextField" name="jTxtLblApelido">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtApelidoActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtLblApelidoActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLblCpf">
@@ -240,16 +240,16 @@
         <Property name="text" type="java.lang.String" value="CPF"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JFormattedTextField" name="jFmtCpf">
+    <Component class="javax.swing.JFormattedTextField" name="jFmtLblCpf">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblDataNasc">
       <Properties>
         <Property name="text" type="java.lang.String" value="Data de Nascimento"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtDataNasc">
+    <Component class="javax.swing.JTextField" name="jTxtLblDataNasc">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtDataNascActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtLblDataNascActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLblSenha">
@@ -257,12 +257,12 @@
         <Property name="text" type="java.lang.String" value="Senha"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JPasswordField" name="jPwfSenha">
+    <Component class="javax.swing.JPasswordField" name="jPwfLblSenha">
       <Properties>
         <Property name="text" type="java.lang.String" value="jPasswordField1"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="jCboNivel">
+    <Component class="javax.swing.JComboBox" name="jCboLblNivel">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="4">
@@ -282,7 +282,7 @@
         <Property name="text" type="java.lang.String" value="Nivel"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JCheckBox" name="jChbAtivo">
+    <Component class="javax.swing.JCheckBox" name="jChbLblAtivo">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ativo"/>
       </Properties>
@@ -292,30 +292,30 @@
         <Property name="text" type="java.lang.String" value="Email"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtEmail">
+    <Component class="javax.swing.JTextField" name="jTxtLblEmail">
     </Component>
     <Component class="javax.swing.JLabel" name="jLblTelefone">
       <Properties>
         <Property name="text" type="java.lang.String" value="Telefone"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtTelefone">
+    <Component class="javax.swing.JTextField" name="jTxtLblTelefone">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Data do Cadastro"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtDataCadastro">
+    <Component class="javax.swing.JTextField" name="jTxtLblDataCadastro">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Hora do Cadastro"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtHoraCadastro">
+    <Component class="javax.swing.JTextField" name="jTxtLblHoraCadastro">
     </Component>
-    <Component class="javax.swing.JComboBox" name="jCboCargo">
+    <Component class="javax.swing.JComboBox" name="jCboLblCargo">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="4">
@@ -340,14 +340,14 @@
         <Property name="text" type="java.lang.String" value="Acessos"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtAcessos">
+    <Component class="javax.swing.JTextField" name="jTxtLblAcessos">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
         <Property name="text" type="java.lang.String" value="G&#xea;nero"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="jCboGenero">
+    <Component class="javax.swing.JComboBox" name="jCboLblGenero">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="4">
